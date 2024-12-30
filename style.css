@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background-color:black;
+    color:white;
+}
+.head{
+    font-size:400%;
+    text-align:center;
+    color:goldenrod
+}
+.task{
+    text-align:center;
+    padding:50px;
+}
+input{
+    width:1000px;
+    padding:10px;
+}
+.adding{
+    color:white;
+    background-color:goldenrod;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer; 
+}
+.adding:hover{
+    background-color:darkolivegreen
+}
+.id{
+    text-align:center;
+    margin-top:20px; 
+}
+
+ul{
+    list-style:none;
+}
+li{
+    padding:10px;
+    margin:5px;
+    background-color:#333;
+    color:white;
+    border-radius:5px;
+}
+li button{
+    background-color:red;
+    border:none;
+    color:white;
+    padding:5px 10px;
+    cursor:pointer;
+}
+li button.edit{
+    background-color:blueviolet;
+    margin-left:10px;
+}
+li button:hover{
+    background-color:darkred;
+}
+li button.edit:hover{
+    background-color:darkblue;
+}
